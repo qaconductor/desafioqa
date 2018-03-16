@@ -71,3 +71,7 @@ Nós da Conductor trabalhamos para transformar a experiência de compra de nosso
 			
 			1. Header - Token: desafio
 
+
+
+Boa sorte e lembre-se: **a "culpa" não é do testador.**
+
