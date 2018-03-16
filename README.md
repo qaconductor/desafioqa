@@ -12,21 +12,18 @@ Nós da Conductor trabalhamos com meios de pagamento e nada melhor uma aplicaç�
 - Pré-requisitos:
 
     * Desenvolver testes automatizados para aplicações Front-end e Back-end(API);
-	* Token acesso aplicação Back-end(desafio)
 
 - O que esperamos como escopo mínimo:
 
     Aplicação Front-end
 	
 	> * Implementar testes automatizados - login;
-    > * Implementar testes automatizados - cadastro cliente;
+    > * Implementar testes automatizados - cadastrar cliente;
 	> * Implementar testes automatizados - consultar cliente;
-	> * Implementar testes automatizados - venda;
-	> * Implementar testes automatizados - consulta venda;
+	> * Implementar testes automatizados - realizar venda;
+	> * Implementar testes automatizados - consultar venda;
 
-    Aplicação Back-end(API)
-	
-		Header  - Token: desafio
+    Aplicação Back-end(API)			
 		
 	> * Implementar testes automatizados - listar produtos;
 
@@ -34,7 +31,7 @@ Nós da Conductor trabalhamos com meios de pagamento e nada melhor uma aplicaç�
 
     > * Descrição de possíveis bugs encontrados;
     > * Elaborar plano de testes;
-	> * Elaborar documentação.
+    > * Elaborar relatório(Status reports do seu trabalho).
     
 - O que vamos avaliar:
 
@@ -63,17 +60,13 @@ Nós da Conductor trabalhamos com meios de pagamento e nada melhor uma aplicaç�
 		
 			1. Autenticação do sistema deve ser realizada com as credenciais(Login/senha: admin/admin);
 			2. Campos obrigatórios contêm o símbolo(*);
-			3. Para realizar uma Venda apenas deverá ser permitado se o saldo do cliente for igual ou superior ao valor da compra.		
+			3. Para realizar uma Venda apenas deverá ser permitido caso o saldo do cliente for igual ou superior ao valor da compra.		
 			
 	- Aplicação Back-end consiste em uma listagem de produtos:
 	
 		+ Fluxo de Atividade
-			+ Consumir API de listagem de produtos.				
+			+ Consumir API de listagem de produtos.	
 			
-## Instruções
-
-  1. Faça o fork do desafio;
-  2. Crie um repositório privado no bitbucket para o projeto e adicione como colaborador o usuário qaconductor;
-  3. Desenvolva. Você terá 2 (dois) dias a partir da data do envio do desafio; 
-  4. Após concluir seu trabalho faça um push; 
-  5. Envie um e-mail ao RH Conductor notificando a finalização do desafio para validação.
+		- Regras de Negócio
+			
+			1. Header - Token: desafio
