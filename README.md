@@ -47,7 +47,7 @@ Nós da Conductor trabalhamos com meios de pagamento e nada melhor uma aplicaç�
 	
 	## Descrição do Desafio
 	
-	- Aplicação Front-end consite em um cadastro/Listagem de Clientes e Vendas:
+	- Aplicação Front-end consiste em um cadastro/Listagem de Clientes e Vendas:
 	
 		+ Fluxo de Atividade
 			+ Menu Cliente
@@ -63,9 +63,9 @@ Nós da Conductor trabalhamos com meios de pagamento e nada melhor uma aplicaç�
 		
 			1. Autenticação do sistema deve ser realizada com as credenciais(Login/senha: admin/admin);
 			2. Campos obrigatórios contêm o símbolo(*);
-			3. Para realizar uma Venda, só deverá ser permitada se o saldo do cliente for igual ou superior ao valor da compra.		
+			3. Para realizar uma Venda apenas deverá ser permitado se o saldo do cliente for igual ou superior ao valor da compra.		
 			
-	- Aplicação Back-end consite em uma listagem de produtos:
+	- Aplicação Back-end consiste em uma listagem de produtos:
 	
 		+ Fluxo de Atividade
 			+ Consumir API de listagem de produtos.				
@@ -73,7 +73,7 @@ Nós da Conductor trabalhamos com meios de pagamento e nada melhor uma aplicaç�
 ## Instruções
 
   1. Faça o fork do desafio;
-  2. Crie um repositório privado no bitbucket para o projeto e adicione como colaborador o usuário conductordev;
+  2. Crie um repositório privado no bitbucket para o projeto e adicione como colaborador o usuário qaconductor;
   3. Desenvolva. Você terá 2 (dois) dias a partir da data do envio do desafio; 
   4. Após concluir seu trabalho faça um push; 
   5. Envie um e-mail ao RH Conductor notificando a finalização do desafio para validação.
