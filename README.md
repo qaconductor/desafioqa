@@ -10,8 +10,9 @@ A vaga é para Analista de Testes, temos vagas com diversos níveis de seniorida
 Nós da Conductor trabalhamos para transformar a experiência de compra de nossos clientes e nada melhor que uma aplicação confiável. Para isso, devemos agilizar nossas entregas e garantir sempre a qualidade das aplicações através de soluções inovadoras e testes automatizados.
 
 - Pré-requisitos:
-
+    * Criar casos de testes;
     * Desenvolver testes automatizados para aplicações Front-end e Back-end(API);
+    * Descrever possíveis bugs encontrados;
 
 - O que esperamos como escopo mínimo:
 
