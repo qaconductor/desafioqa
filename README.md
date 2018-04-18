@@ -9,12 +9,14 @@ A vaga é para Analista de Testes, temos vagas com diversos níveis de seniorida
 
 Nós da Conductor trabalhamos para transformar a experiência de compra de nossos clientes e nada melhor que uma aplicação confiável. Para isso, devemos agilizar nossas entregas e garantir sempre a qualidade das aplicações através de soluções inovadoras e testes automatizados.
 
-- Pré-requisitos:
-    * Criar casos de testes;
-    * Desenvolver testes automatizados para aplicações Front-end e Back-end(API);
-    * Descrever possíveis bugs encontrados;
+- Pré-requisito:
+    * linguagem de programação java;
 
 - O que esperamos como escopo mínimo:
+
+    > * Elaborar plano de testes;
+    > * Levantar cenários e especificar os casos de testes;
+    > * Descrever possíveis bugs, realizando o detalhamento dos passos a serem reproduzidos;   
 
     Aplicação Front-end
 	
@@ -24,22 +26,21 @@ Nós da Conductor trabalhamos para transformar a experiência de compra de nosso
 	> * Implementar testes automatizados - realizar venda;
 	> * Implementar testes automatizados - consultar venda;
 
-    Aplicação Back-end(API)			
+    Aplicação Back-end(API-REST)		
 		
 	> * Implementar testes automatizados - listar produtos;
 
 - O que será diferencial:
 
-    > * Descrição de possíveis bugs encontrados;
-    > * Elaborar plano de testes;
-    > * Elaborar relatório(Status reports do seu trabalho).
+    > * Elaborar relatório (Status reports do seu trabalho).
+    > * Melhorias e sugestão de usabilidade da aplicação front-end;
     
 - O que vamos avaliar:
 
     > * Seu código; 
     > * Organização;
+    > * Plano de testes;
 	> * Casos de testes;
-	> * Tipos de testes;
     > * Boas práticas;
     > * Diferenciais (Aqui iremos avaliar aspectos que são sua marca registrada! Sinta-se à vontade para ser criativo e apresentar seus diferenciais);    
 	
@@ -59,20 +60,26 @@ Nós da Conductor trabalhamos para transformar a experiência de compra de nosso
 		
 		- Regras de Negócio
 		
-			1. Autenticação do sistema deve ser realizada com as credenciais(Login/senha: admin/admin);
+			1. Autenticação do sistema deve ser realizada com as credenciais(Login/senha: **admin/admin**);
 			2. Campos obrigatórios contêm o símbolo(*);
-			3. Para realizar uma Venda apenas deverá ser permitido caso o saldo do cliente for igual ou superior ao valor da compra.		
+			3. Para realizar uma venda, apenas deverá ser permitido caso o saldo do cliente for igual ou superior ao valor da compra.		
 			
 	- Aplicação Back-end consiste em uma listagem de produtos:
 	
 		+ Fluxo de Atividade
-			+ Consumir API de listagem de produtos.	
+			+ Consumir API (json) de listagem de produtos.	
 			
 		- Regras de Negócio
 			
-			1. Header - Token: desafio
+			1. Header - **Token: desafio**
 
+	## Instruções
+	
+	- Crie um repositório privado no bitbucket para o projeto e adicione como colaborador o usuário **qa_conductor**;
+	- Teste a aplicação e Desenvolva automação dos testes, junto com todos os artefatos já citados e envie até a data prevista.
+	-  Após concluir seu trabalho faça um push;
+	-  Envie um e-mail ao RH Conductor notificando a finalização do desafio para validação.
 
+ **Utilize todo seu conhecimento e nos mostre seu potencial;**
 
 Boa sorte e lembre-se: **a "culpa" não é do testador.**
-
